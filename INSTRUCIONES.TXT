@@ -1,0 +1,32 @@
+Instalar git https://git-scm.com/download/win
+ 
+Instalar nodejs https://nodejs.org/es/download/
+ 
+Verificar si se instaló el node node -v
+ 
+Verificar si se instaló el npm npm -v
+ 
+C:\Users\PT\Documents\dev\github>git clone https://github.com/johnhcano/MinTic2022_DesarrolloDeSoftware.git Cloning into 'MinTic2022_DesarrolloDeSoftware'... remote: Enumerating objects: 2256, done. remote: Counting objects: 100% (10/10), done. remote: Compressing objects: 100% (9/9), done. remote: Total 2256 (delta 1), reused 6 (delta 1), pack-reused 2246Receiving objects:  99% (2234/2256), 7.01 MiB | 6.96 MReceiving objects: 100% (2256/2256), 14.88 MiB | 10.41 MiB/s, done.
+ 
+Resolving deltas: 100% (734/734), done.
+ 
+-> Nos movemos a la carpeta backend_nodejs que está en P2\Semana3\dev\backend_nodejs
+ 
+C:\Users\PT\Documents\dev\github\MinTic2022_DesarrolloDeSoftware\P2\Semana3\dev\backend_nodejs>npm install -g npm@10.7.0 ó npm install -g npm@latest
+ 
+C:\Users\PT\Documents\dev\github\MinTic2022_DesarrolloDeSoftware\P2\Semana3\dev\backend_nodejs>npm install -g nodemon
+ 
+C:\Users\PT\Documents\dev\github\MinTic2022_DesarrolloDeSoftware\P2\Semana3\dev\backend_nodejs>npm install express
+ 
+C:\Users\PT\Documents\dev\github\MinTic2022_DesarrolloDeSoftware\P2\Semana3\dev\backend_nodejs>npm run dev
+ 
+> backend_nodejs@1.0.0 dev > nodemon src/index.js
+ 
+[nodemon] 3.1.0 [nodemon] to restart at any time, enter rs [nodemon] watching path(s): *.* [nodemon] watching extensions: js,mjs,cjs,json [nodemon] starting node src/index.js Servidor corriendo por el puerto =>  3000 Conexión a BD con éxito
+ 
+ 
+Crear la cuenta desde www.postman.com con las credenciales de google (Preferiblemente)
+ 
+Descargar Postman para escritorio https://www.postman.com/downloads/
+ 
+y en la aplicación acceder con una cuenta ya creada que es la de google.
